@@ -14,7 +14,7 @@ class Product extends Component {
           <div className="card-body">
             <h4 className="card-title">
               <strong>
-                <a>Iphone 6 Plus</a>
+                <a>{this.props.name}</a>
               </strong>
             </h4>
             <ul className="rating">
@@ -36,7 +36,7 @@ class Product extends Component {
             </ul>
             <p className="card-text">Sản phẩm do apply sản xuất</p>
             <div className="card-footer">
-              <span className="left">15$</span>
+              <span className="left">{this.props.product.price}$</span>
               <span className="right">
                 <a
                   className="btn-floating blue-gradient"
