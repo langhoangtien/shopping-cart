@@ -12,44 +12,44 @@ class Footer extends Component {
               <div className="social-section text-md-left">
                 <ul className="text-center">
                   <li>
-                    <a className="btn-floating  btn-fb waves-effect waves-light">
+                    <span className="btn-floating  btn-fb waves-effect waves-light">
                       <i className="fa fa-facebook" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-ins waves-effect waves-light">
+                    <span className="btn-floating  btn-ins waves-effect waves-light">
                       <i className="fa fa-instagram" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-tw waves-effect waves-light">
+                    <span className="btn-floating  btn-tw waves-effect waves-light">
                       <i className="fa fa-twitter" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-yt waves-effect waves-light">
+                    <span className="btn-floating  btn-yt waves-effect waves-light">
                       <i className="fa fa-youtube" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-li waves-effect waves-light">
+                    <span className="btn-floating  btn-li waves-effect waves-light">
                       <i className="fa fa-linkedin" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-dribbble waves-effect waves-light">
+                    <span className="btn-floating  btn-dribbble waves-effect waves-light">
                       <i className="fa fa-dribbble left" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-pin waves-effect waves-light">
+                    <span className="btn-floating  btn-pin waves-effect waves-light">
                       <i className="fa fa-pinterest" />
-                    </a>
+                    </span>
                   </li>
                   <li>
-                    <a className="btn-floating  btn-gplus waves-effect waves-light">
+                    <span className="btn-floating  btn-gplus waves-effect waves-light">
                       <i className="fa fa-google-plus" />
-                    </a>
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -58,16 +58,16 @@ class Footer extends Component {
               <h5 className="title">Delivery</h5>
               <ul>
                 <li>
-                  <a>Store Delivery</a>
+                  <span>Store Delivery</span>
                 </li>
                 <li>
-                  <a>Online Delivery</a>
+                  <span>Online Delivery</span>
                 </li>
                 <li>
-                  <a>Delivery Terms &amp; Conditions</a>
+                  <span>Delivery Terms &amp; Conditions</span>
                 </li>
                 <li>
-                  <a>Tracking</a>
+                  <span>Tracking</span>
                 </li>
               </ul>
             </div>
@@ -75,16 +75,16 @@ class Footer extends Component {
               <h5 className="title">Need help?</h5>
               <ul>
                 <li>
-                  <a>FAQ</a>
+                  <span>FAQ</span>
                 </li>
                 <li>
-                  <a>Contact Us</a>
+                  <span>Contact Us</span>
                 </li>
                 <li>
-                  <a>Return Policy</a>
+                  <span>Return Policy</span>
                 </li>
                 <li>
-                  <a>Product Registration</a>
+                  <span>Product Registration</span>
                 </li>
               </ul>
             </div>
@@ -94,9 +94,9 @@ class Footer extends Component {
                 <li>
                   <div className="view overlay hm-white-slight z-depth-1">
                     <img className="img-fluid" src={instagramPhoto} alt="" />
-                    <a>
+                    <span>
                       <div className="mask waves-light waves-effect waves-light" />
-                    </a>
+                    </span>
                   </div>
                 </li>
               </ul>
@@ -106,7 +106,7 @@ class Footer extends Component {
         <div className="footer-copyright">
           <div className="container-fluid">
             © 2016 Copyright:
-            <a href="http://www.MDBootstrap.com"> MDBootstrap.com </a>
+            <span href="http://www.MDBootstrap.com"> MDBootstrap.com </span>
           </div>
         </div>
       </footer>
